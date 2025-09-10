@@ -1,283 +1,303 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>travel agency website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Astha Pal — Travel</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header -->
-     <header>
-        <img src="\image\logo.jpeg" alt " " width="170px">
-        <nav class="navbar">
-            <ul>
-                <li><a href="">services</a></li>
-                <li><a href=""></a>destination</li>
-                <li><a href=""></a>booking</li>
-                <li><a href=""></a>testimonial</li>
-                <li><a href=""></a>login</li>
-                <li><a href="" class ="signup-btn">sign up</a></li>
 
-            </ul>
-        </nav>
-     </header>
-                <!-- hero section -->
-                 
-      <section class="hero">
-        <div classs ="left-container">
-             <div classs ="left-content"> 
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-wrap">
+        <a href="#" class="brand">
+          <img src="image/logo.jpeg" alt="Astha Pal" class="brand-logo" />
+        </a>
+      </div>
 
-                <h4>best destination around the world</h4>
-                <h1>Travel ,enjoy and live a new full life</h1>
-                <p>
-                    build wicket longer admire do barton vanity itself do in it <br>
-                    preferred to sportsmen it engrossed listening .park gate
-                    sell they west hard for the.
-                </p>
-                <button class ="contact-btn"> contact</button>
-                <button class ="booking-btn"> booking</button>
-            </div>
-        </div>
-        <div class ="right-container">
-<img src="girl-removebg-preview.png " alt="profile" width="500px"> 
-                       
-        </div>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#services">services</a></li>
+          <li><a href="#destination">destination</a></li>
+          <li><a href="#booking">booking</a></li>
+          <li><a href="#testimonial">testimonial</a></li>
+          <li><a href="#login">login</a></li>
+          <li><a href="#signup" class="signup-btn">sign up</a></li>
+        </ul>
+      </nav>
 
-      </section>
-                      <!-- services section -->
+      <div class="header-actions">
+        <!-- theme toggle -->
+        <button id="themeBtn" class="icon-btn theme-btn" aria-label="Toggle theme" title="Toggle theme">
+          <i class="fa-regular fa-moon"></i>
+        </button>
 
-       <section class="title-style" style="margin-bottom:50px;">
-        <div class="category-title">
-            <h5>CATEGORY</h5>
-            <h3>We offer west services</h3>
-
-        </div>
-                <div class="services-card">
-                <div class="card">
-                    <img src="images.jpg"  alt=""  width="70">
-                    <h4>calculated Weather</h4>
-                    <p>built wicket longer admire<br>do baton vanity itself do is<br> it. </p>
-                    </div>
-
-                <div class="card">
-                    <img src="airoplane.jpeg "  alt="Best Flights" width="100">
-                    <h4>Best Flights</h4>
-                    <p>Engrossed Listening park<br>gates sell they west hard for<br>the. </p>
-                    </div>
-
-                <div class="card">
-                    <img src="image/download.jpg"  alt="Local Event" width="70">
-                    <h4>Local Event</h4>
-                    <p>barton vanity itself do in it.<br>pefered to men it engrossed<br>listening </p>
-                    </div>
-                <div class="card">
-                    <img src="image/customization.jpeg"  alt="Customization" width="95">
-                    <h4>Customization</h4>
-                    <p>We deliver ouctsourced<br>aviation service for militery<br>customers </p>
-            </div>
-
-        </div>
-       </section>
-                               <!-- top services -->
-
-       <section class="title-style" style="margin-bottom:50x;">
-
-         <div class="category-title">
-            <h5>Top selling</h5>
-            <h3>We offer west services</h3>
-
-        </div>
-                <div class="services-card">
-                <div class="destination-card">
-                    <img src="image/italic.jpeg  "  alt=" italic"  width="150 ">
-                    <h4>Rome,Italy <span>$S,42k</span></h4>
-                    <p>built wicket longer admire<br>do baton vanity itself do is<br> it. </p>
-                    </div>
-
-                <div class="destination-card">
-                    <img src="image/lon.jpeg "  alt="londun" width="120">
-                    <h4> London,UK<span>$S,42k</span> </h4>
-                    <p>Engrossed Listening park<br>gates sell they west hard for<br>the. </p>
-                    </div>
-
-                <div class="destination-card">
-                    <img src=" image/eur.jpeg "  alt="europe" width="100">
-                    <h4>Full,Europe <span>$S,42k</span>  </h4>
-                    <p>barton vanity itself do in it.<br>pefered to men it engrossed<br>listening </p>
-                    </div>
-                
-        </div>
-       </section>
-
-                          <!-- booking section  -->
-    
-    <section class=" title-style" style="margin-bottom:50px;">
-     
-        <div>
-            <div class=" left-container-booking">
-                 <div class=" left-content-booking">
-
-                    <h5>Easy and Fast</h5>
-                    <h3> Book Your next trip in 3 easy steps</h3>
-                    <div class="booking-title">
-                        <div clas="booking-icon icon-1">
-                            <img src="image/dest.jpeg" alt="" width="40">
-                        </div>
-                        <div class=" booking-icon-title">
-                        <h5>Choose destination</h5>
-                        <p> Choose your favourite place.No matter <br>
-                            where your travel inside the world.</p>
-                    </div>
-              </div>  
-              <div class="booking-title">
-                        <div clas="booking-icon icon-2">
-                            <img src="image/payment.jpeg " alt="" width="50">
-                        </div>
-                        <div class=" booking-icon-title">
-                        <h5>make payment</h5>
-                        <p> After find your perfect spot,make your<br>
-                        paymentand get ready to travel. </p>
-                    </div>
-              </div>  
-               <div class="booking-title">
-                        <div clas="booking-icon icon-3">
-                            <img src="image/taxi.jpeg" alt="" width="50">
-                        </div>
-                        <div class=" booking-icon-title">
-                        <h5>Reach Airport on Selected Date</h5>
-                        <p> Lastly you have to arrive at the airport<br>
-                          on time and enjoy the vaction. </p>
-                    </div>
-              </div>  
-        </div>
-     </div>
-             
-        <div class="right-container-booking">
-             <div class="booking-card ">
-                <img src="girl.jpeg  " class ="booking-img" alt="">
-                <h5> Trip To Greece</h5>
-                <P>14-29 june| by webiyor Tech </P>
-                <div class=" social-icon">
-                    
-                    <span class="icon-item"><img src="leaf.jpeg " width="20"></span>
-                    <span class="icon-item"><img src="map.jpeg " width="20"></span>
-                    <span class="icon-item"><img src="send.jpeg " width="20" ></span>
-
-                </div>
-                <div class="booking-card-footer">
-                     <div class="left-booking-card-footer">
-                    <img src="building.jpeg" width="30">
-                    <span>24 people going</span>
-
-                </div>
-                <div>
-                    <img src="heaaart.jpeg" width="30">
-                    </div>
-                </div>
-             </div>
-        </div>
+        <!-- mobile hamburger -->
+        <button id="hamburger" class="icon-btn hamburger" aria-label="Open menu" title="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
     </div>
-    </section>
- 
-                                     <!-- ---------- contact----------- -->
+  </header>
 
-    <section class="title-style" style="margin-top:50%; margin-bottom: 50px;">
-        <div class="contact">
-            <div class="contact-container">
-                <div class="share-arrow">
-                    <img src="logo_send-removebg-preview.png " alt="">
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <p class="kicker">best destination around the world</p>
+        <h1 class="hero-title">Travel ,enjoy and live a new full life</h1>
+        <p class="hero-sub">
+          build wicket longer admire do barton vanity itself do in it.
+          preferred to sportsmen it engrossed listening .park gate sell they west hard for the.
+        </p>
 
-                </div>
-                     <!-- <div class="shape-bg2">
-                        <img src="shape-bg2.jpeg " >
-
-                 </div> -->
-                 <!-- <div class="shape-bg1">
-                        <img src=" shape-bg1.jpeg" >
-                 </div> -->
-                <div class="contact-text">
-                    <div class="con-text">
-                        <h2>Subscript to get information, latest news and other<br>interesting offers about
-                             cobham</h2>
-                        
-                    </div>
-                    <form action="" class="form-text">
-                        <div class="input-group-icon">
-                              <input type=""email class="form-control" placeholder="Enter-Email" />
-                                <img src="mailbox.png" class="input-box-icon" width="20px">
-                        </div>
-                          <div class="subscribe-btn">
-                            <button class="btn-sub">Subscribe</button>
-
-                          </div> 
-                    </form>
-                </div>
-            </div>
+        <div class="hero-cta">
+          <button class="btn btn-yellow">contact</button>
+          <button class="btn btn-orange">booking</button>
         </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- user image (same as screenshot) -->
+        <img src="image/girl-removebg-preview.png" alt="hero" class="hero-image">
+      </div>
     </section>
 
-                        <!-- ------  footer----- -->
-     <section>
-        <div class="footer">
-            <div class="footer-col f-col-1">
-                <img src="fauget.jpeg" alt="" width="100">
-                <p>Book your trip in minute, get full control for much longer.</p>
-
-            </div>
-            <div class="footer-col">
-                <h4>Company</h4>
-                <ul>
-                    
-                    <li><a href="">About</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Mobile</a></li>
-                    
-                </ul>
-            </div>
-                 <div class="footer-col">
-                <h4>Contact</h4>
-                  <ul>
-                    
-                    <li><a href="">Help/FAQ</a></li>
-                    <li><a href="">press</a></li>
-                    <li><a href="">Affiliate</a></li>
-                    
-                   </ul>
-                </div>
-                
-                 <div class="footer-col">
-                <h4>More</h4>
-                <ul>
-                    
-                    <li><a href="">Airlinefees</a></li>
-                    <li><a href="">Airline</a></li>
-                    <li><a href="">Low fare tips</a></li>
-                    
-                </ul>
-                </div>
-                <div class="footer-col">
-                    <div class="social-icons">
+    <!-- SERVICES -->
+    <!-- SERVICES -->
+<section class="section services">
+  <div class="section-head">
+    <p class="small">CATEGORY</p>
+    <h2 class="section-title">We Offer Best Services</h2>
+  </div>
+  <div class="services-grid">
     
-                         <a href="" class="social-icons-item"><i class="fa fa-facebook"></i></a>
-                         <a href="" class="social-icons-item"><i class="fa fa-instagram"></i></a>
-                         <a href="" class="social-icons-item"><i class="fa fa-twitter"></i></a>
-                    </div>
-                
-                    <h4 class="footer-app">
-                        discover our app
-                    </h4>
-                    <div>
-                        <img src="gggggggggggg.jpeg " alt="" width="100">
-                        <img src="aaaaaaaaaaa.jpeg"  alt="" width="110">
-                    </div>
-                </div>
+    <div class="service-card">
+      <img src="images/flight.png" alt="Flight Service" class="service-img">
+      <h3 class="service-title">Calculated Weather</h3>
+      <p class="service-desc">Built Wicket longer admire do barton vanity itself do in it.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/hotel.png" alt="Hotel Service" class="service-img">
+      <h3 class="service-title">Best Flights</h3>
+      <p class="service-desc">Engrossed listening. Park gate sell they west hard for the.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/mic.png" alt="Local Event" class="service-img">
+      <h3 class="service-title">Local Events</h3>
+      <p class="service-desc">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/settings.png" alt="Customization" class="service-img">
+      <h3 class="service-title">Customization</h3>
+      <p class="service-desc">We deliver outsourced aviation services for military customers.</p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- TOP SELLING / DESTINATIONS -->
+    <section id="destination" class="section destination-section">
+      <div class="section-head">
+        <div class="small">Top selling</div>
+        <h2 class="section-title">We Offer West Services</h2>
+      </div>
+
+      <div class="dest-grid">
+        <article class="dest-card">
+          <img src="image/italy-thumb.jpg" alt="Rome, Italy" class="dest-thumb">
+          <div class="dest-body">
+            <h3 class="dest-title">Rome,Italy <span class="dest-price">$S,42k</span></h3>
+            <p class="dest-desc">built wicket longer admire do baton vanity itself do is it.</p>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="image/london-thumb.jpg" alt="London, UK" class="dest-thumb">
+          <div class="dest-body">
+            <h3 class="dest-title">London,UK <span class="dest-price">$S,42k</span></h3>
+            <p class="dest-desc">Engrossed Listening park gates sell they west hard for the.</p>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="image/europe-thumb.jpg" alt="Full Europe" class="dest-thumb">
+          <div class="dest-body">
+            <h3 class="dest-title">Full,Europe <span class="dest-price">$S,42k</span></h3>
+            <p class="dest-desc">barton vanity itself do in it. pefered to men it engrossed listening</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BOOKING / STEPS -->
+    <section id="booking" class="section booking-section">
+      <div class="booking-left">
+        <div class="small">Easy and Fast</div>
+        <h2 class="booking-title">Book Your Next Trip In 3 Easy Steps</h2>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-icon"><img src="image/dest-step.png" alt=""></div>
+            <div class="step-body">
+              <h4>Choose destination</h4>
+              <p>Choose your favourite place. No matter where your travel inside the world.</p>
             </div>
-        
-     </section>
-     <div class="end-text">
-         <p>All Rights reserved@webiyor.com</p>
-     </div>
+          </div>
+
+          <div class="step">
+            <div class="step-icon"><img src="image/payment-step.png" alt=""></div>
+            <div class="step-body">
+              <h4>make payment</h4>
+              <p>After find your perfect spot, make your payment and get ready to travel.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-icon"><img src="image/taxi-step.png" alt=""></div>
+            <div class="step-body">
+              <h4>Reach Airport on Selected Date</h4>
+              <p>Lastly you have to arrive at the airport on time and enjoy the vacation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-right">
+        <div class="trip-card">
+          <img src="image/trip-thumb.jpg" alt="Trip To Greece" class="trip-thumb">
+          <div class="trip-info">
+            <h4>Trip To Greece</h4>
+            <p class="muted">14-29 june | by webiyor Tech</p>
+            <div class="trip-meta">
+              <span class="meta-item"> <img src="image/icon-people.png" alt=""> 24 people going</span>
+              <span class="meta-cta"><i class="fa-regular fa-heart"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe-section">
+      <div class="subscribe-card">
+        <h3>Subscript to get information, latest news and other interesting offers about cobham</h3>
+        <form class="subscribe-form">
+          <div class="input-wrap">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder="Enter-Email" required>
+          </div>
+          <button class="btn btn-sub">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="image/fauget.jpeg" alt="logo" width="100">
+        <p class="footer-line">Book your trip in minute, get full control for much longer.</p>
+      </div>
+
+      <div class="footer-cols">
+        <div class="foot-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Help/FAQ</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="#">Airlinefees</a></li>
+            <li><a href="#">Airline</a></li>
+            <li><a href="#">Low fare tips</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-col">
+          <h4>Discover our app</h4>
+          <div class="app-links">
+            <img src="image/google-play.png" alt="play" width="100">
+            <img src="image/app-store.png" alt="app" width="100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>All Rights reserved@webiyor.com</p>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: theme + mobile nav -->
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  // mobile nav toggle
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.getElementById('nav');
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+
+  // theme toggle (persist)
+  const themeBtn = document.getElementById('themeBtn');
+  const stored = localStorage.getItem('ap_theme');
+  if (stored === 'dark') document.documentElement.classList.add('dark-mode');
+
+  function setIcon() {
+    const icon = themeBtn.querySelector('i');
+    icon.className = document.documentElement.classList.contains('dark-mode') ? 'fa-solid fa-sun' : 'fa-regular fa-moon';
+  }
+  setIcon();
+
+  themeBtn.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('ap_theme', document.documentElement.classList.contains('dark-mode') ? 'dark' : 'light');
+    setIcon();
+  });
+
+  // close mobile nav when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+      nav.classList.remove('open');
+    }
+  });
+});
+</script>
+
 </body>
 </html>
